@@ -13,6 +13,8 @@
 		4DE06A591E5FFBAF008272EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE06A571E5FFBAF008272EF /* Main.storyboard */; };
 		4DE06A5B1E5FFBAF008272EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE06A5A1E5FFBAF008272EF /* Assets.xcassets */; };
 		4DE06A5E1E5FFBAF008272EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE06A5C1E5FFBAF008272EF /* LaunchScreen.storyboard */; };
+		4DE06A671E5FFC0C008272EF /* NoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE06A661E5FFC0C008272EF /* NoticeBar.m */; };
+		4DE06A6A1E5FFF7F008272EF /* NoticeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE06A691E5FFF7F008272EF /* NoticeWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4DE06A5A1E5FFBAF008272EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE06A5D1E5FFBAF008272EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE06A5F1E5FFBAF008272EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE06A651E5FFC0C008272EF /* NoticeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeBar.h; sourceTree = "<group>"; };
+		4DE06A661E5FFC0C008272EF /* NoticeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeBar.m; sourceTree = "<group>"; };
+		4DE06A681E5FFF7F008272EF /* NoticeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeWebViewController.h; sourceTree = "<group>"; };
+		4DE06A691E5FFF7F008272EF /* NoticeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		4DE06A4D1E5FFBAF008272EF /* NoticeBar_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4DE06A681E5FFF7F008272EF /* NoticeWebViewController.h */,
+				4DE06A691E5FFF7F008272EF /* NoticeWebViewController.m */,
+				4DE06A651E5FFC0C008272EF /* NoticeBar.h */,
+				4DE06A661E5FFC0C008272EF /* NoticeBar.m */,
 				4DE06A511E5FFBAF008272EF /* AppDelegate.h */,
 				4DE06A521E5FFBAF008272EF /* AppDelegate.m */,
 				4DE06A541E5FFBAF008272EF /* ViewController.h */,
@@ -150,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE06A6A1E5FFF7F008272EF /* NoticeWebViewController.m in Sources */,
 				4DE06A561E5FFBAF008272EF /* ViewController.m in Sources */,
+				4DE06A671E5FFC0C008272EF /* NoticeBar.m in Sources */,
 				4DE06A531E5FFBAF008272EF /* AppDelegate.m in Sources */,
 				4DE06A501E5FFBAF008272EF /* main.m in Sources */,
 			);
